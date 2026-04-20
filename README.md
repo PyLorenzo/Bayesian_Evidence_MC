@@ -1,13 +1,11 @@
-# CHANGES.md
+# README.md
 
-This document describes the changes introduced in `MCEvidence_fixed.py` relative
-to the original `MCEvidence.py` distributed with the upstream repository
+This document is based on the `MCEvidence.py` distributed with the upstream repository
 [`yabebalFantaye/MCEvidence`](https://github.com/yabebalFantaye/MCEvidence),
 which implements the Heavens et al. (2017) kth-nearest-neighbour estimator of
 the Bayesian evidence from MCMC chains (arXiv:[1704.03472](https://arxiv.org/abs/1704.03472)).
 
-The fork is **not** a bug-fix patch on top of the original: the file is a
-near-complete rewrite (1475 → 740 lines) that preserves the Heavens estimator
+The file is a near-complete rewrite (1475 → 740 lines) that preserves the Heavens estimator
 but restructures the surrounding machinery for use with modern **Cobaya**-style
 chains (and in particular the chain format produced by EFTCosmoMC / EFTCAMB
 runs of the kind used in Benevento et al. 2022 and Kable et al. 2023).
